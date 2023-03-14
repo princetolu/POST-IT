@@ -1,0 +1,409 @@
+/* Navigation Menu */
+.navbar{
+    background-color: #FDFEFF;
+}
+.nav-font{
+    font-size: 24px;
+}
+
+.nav-btn{
+    background-color: #0086B0;
+    border-radius: 8px;
+}
+
+.nav-link:hover{
+    font-weight: bolder;
+    color: #0086B0;
+}
+
+.btn-primary{
+    background-color: #0086B0;
+}
+
+.bg-primary{
+    background-color: #0086B0;
+}
+
+
+
+/* Section */
+.bg-img{
+    background-image: url(Images/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 616px;
+}
+
+
+.disc{
+    background-image: url(Images/Rectangle\ 38.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+/* Stories */
+.story-bg{
+    background-color: #F5F6F8;
+}
+
+.img-label{
+    position: relative;
+    left: 20px;
+    bottom: 55px;
+}
+
+
+.inputWithIcon input[type="text"] {
+    border: 2px solid #aaa;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+  
+.inputWithIcon input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type="text"] {
+    padding-left: 40px;
+}
+  
+.inputWithIcon {
+    position: relative;
+}
+  
+.inputWithIcon i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+
+.inputWithIcon-2 textarea {
+    border: 2px solid #aaa;
+    margin: 8px 0;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+  
+.inputWithIcon-2 textarea:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+  
+.inputWithIcon-2 {
+    position: relative;
+}
+  
+.inputWithIcon-2 i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.search .form-control {
+    padding-left: 2.375rem;
+}
+
+.search .search-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+
+
+
+
+
+/* Sign In & Sign Up */
+.sign-bg {
+    height: 100%;
+    background-image: url(Images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign{
+    padding-bottom: 10px;
+    background-color: #fffdfd;
+    width: 500px;
+}
+
+
+.sign .form__group {
+    position: relative;
+    padding: 20px 0 0;
+    margin-top: 10px;
+    width: 100%;
+}
+  
+.sign .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: #383838;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    text-align: center;
+}
+  
+.sign .form__field::placeholder {
+    color: transparent;
+}
+  
+.sign .form__field:placeholder-shown ~ .form__label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+    padding-left: 25%;
+}
+  
+.sign .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #9b9b9b;
+    pointer-events: none;
+    padding-left: 25%;
+}
+  
+.sign .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 500;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #116399, #38caef);
+    border-image-slice: 1;
+}
+  
+.sign .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #38caef;
+    font-weight: 700;
+    padding-left: 25%;
+}
+  
+  /* reset input */
+.sign .form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+
+.sign .form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dashboard */
+.scroll{
+    overflow: scroll;
+    overflow-x: hidden;
+    min-height: 500px;
+}
+
+.scroll::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar{
+	width: 10px;
+	background-color: #f5f5f5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(22, 67, 200)));
+}
+
+
+
+.search .search-icon {
+    position: relative;
+    display: block;
+    padding-top: 40px;
+    width: 40px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.search .form-control {
+    padding-left: 40px;
+}
+
+.post{
+    text-align: justify;
+}
+
+
+
+
+/* Footer */
+.footer-input{
+    position: relative;
+    display: flex;
+    height: 39px;
+    width: 100%;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .05);
+}
+
+.footer-input input {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid  rgb(176 190 197);
+    background-color: transparent;
+    padding: 0.625rem 70px 0.625rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: rgb(69 90 100);
+    outline: none;
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input input:focus {
+    border: 1px solid #0086B0;
+}
+
+.subscribe-btn {
+    color: white;
+    position: absolute;
+    width: 75px;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    z-index: 10;
+    border-radius: 4px;
+    background-color: #0086B0;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    transition: .6s ease;
+}
+  
+.subscribe-btn:hover {
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    border-radius: 8px;
+}
+  
+.footer-input input:placeholder-shown ~ .subscribe-btn {
+    pointer-events: none;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width:480px) {
+    /* Mobile device with small screens */
+   
+}
+
+
+
+ @media (min-width:481px) and (max-width:768px) {
+    /* tablets devices or larger smart phones */
+    
+}
+
+
+
+@media (min-width:769px) and (max-width:1024px) {
+    /* laptop and desktop*/
+
+}
